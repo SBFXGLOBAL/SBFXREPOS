@@ -1,0 +1,75 @@
+body {
+    padding-top: 55px;
+    padding-bottom: 21px;
+    display: block;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    margin: 0;
+    border-style: solid;
+    border-color: currentColor;
+    color: #202124;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    border-width: 0;
+    height: 233px;
+    transition: margin-top 0.4s ease, height 0.4s ease;
+    display: block;
+    text-align: center;
+    font-size: 90%;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 21px;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: #fff;
+    animation: App-logo-spin infinite 20s linear;
+    align-items: center;
+    justify-content: center;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
