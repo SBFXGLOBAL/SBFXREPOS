@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>
+    </title>
+</head>
+
+<body>
+    {% extends "layout.html" %} {% block content %}
+
+    <h2>{{ title }}.</h2>
+
+
+    <h3>{{ message }}</h3>
+
+
+    <p class="fileUpload btn btn-primary">
+        <span>
+            <i class="fileUpload"></i> Upload files (Max 3 files, 1 GB per
+            file)
+        </span> <input accept="image/*" class="upload" id="fileField" multiple type="file">
+    </p>
+    {% endblock %}
+</body>
+</html>
